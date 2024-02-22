@@ -1,0 +1,17 @@
+.extra{
+    display: none;
+    
+}
+#removeField{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    
+    .extra {
+        display: block; 
+    }
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
