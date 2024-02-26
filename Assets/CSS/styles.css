@@ -1,17 +1,21 @@
-.extra{
+/* .extra{
     display: none;
     
-}
+} */
 #removeField{
     display: none;
 }
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     
     .extra {
         display: block; 
     }
-}
+} */
 label{
     font-size: 20px;
     font-weight: bold;
+}
+.edit-btn{
+    width: 10rem;
+    margin: auto;
 }
