@@ -30,7 +30,7 @@
             <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="modal-body">
@@ -40,29 +40,29 @@
                         <div class="row mt-5">
                             <div class="col-lg-4 col-12">
                                 <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" name="firstName" r placeholder="Your Name" class="form-control" id="firstName">
+                                <input type="text" name="firstName" required placeholder="Your Name" class="form-control" id="firstName">
                             </div>
                             <div class="col-lg-4 col-12">
                                 <label for="lastName" class="form-label">Last Name</label>
-                                <input type="text" name="lastName" r placeholder="Your Last Name" class="form-control" id="lastName">
+                                <input type="text" name="lastName" required placeholder="Your Last Name" class="form-control" id="lastName">
                             </div>
                             <div class="col-lg-4 col-12">
                                 <label for="birthDate" class="form-label">Date Of Birth</label>
-                                <input type="date" name="dob" r class="form-control" id="birthDate">
+                                <input type="date" name="dob" required class="form-control dob" id="birthDate">
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-lg-4 col-12">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" name="email" r placeholder="Your Email" class="form-control" id="email">
+                                <input type="email" name="email" required placeholder="Your Email" class="form-control" id="email">
                             </div>
                             <div class="col-lg-4 col-12">
                                 <label for="address" class="form-label">Address</label>
-                                <input type="text" name="address" r placeholder="Your Address" class="form-control" id="address">
+                                <textarea type="text" name="address" required placeholder="Your Address" class="form-control" id="address"></textarea>
                             </div>
                             <div class="col-lg-4 col-12">
                                 <label for="graduateYear" class="form-label">Graduation Year</label>
-                                <input type="date" name="graduateYear" r class="form-control" id="graduateYear">
+                                <input type="date" name="graduateYear" required class="form-control" id="graduateYear">
                             </div>
                         </div>
                         <hr>
@@ -76,42 +76,42 @@
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group1">
                                         <label for="degree" class="form-label">Degree/Board</label>
-                                        <input type="text" name="degree" r placeholder="Your Board" class="form-control mt-3" id="degree">
+                                        <input type="text" name="degree" required placeholder="Your Board" class="form-control mt-3" id="degree">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group2">
                                         <label for="school" class="form-label" >School/College</label>
-                                        <input type="text" name="school" r placeholder="Your School/College" class="form-control mt-3" id="school">
+                                        <input type="text" name="school" required placeholder="Your School/College" class="form-control mt-3" id="school">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group3">
                                         <label for="StartDate" class="form-label">Start Date</label>
-                                        <input type="date" name="startDate" r placeholder="Start date of College" class="form-control mt-3" id="startDate">
+                                        <input type="date" name="startDate" required placeholder="Start date of College" class="form-control mt-3" id="startDate">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group4">
                                         <label for="passoutYear" class="form-label">Passout Year</label>
-                                        <input type="date" name="passoutYear" r placeholder="Your Passing Year" class="form-control mt-3" id="passoutYear">
+                                        <input type="date" name="passoutYear" required placeholder="Your Passing Year" class="form-control mt-3" id="passoutYear">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group5">
                                         <label for="percentage" class="form-label">Percentage</label>
-                                        <input type="text" name="percentage" r placeholder="Your passing percentage" class="form-control mt-3" id="percentage">
+                                        <input type="text" name="percentage" required placeholder="Your passing percentage" class="form-control mt-3" id="percentage">
                                      
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group6">
                                         <label for="Backlog" class="form-label">Backlog</label>
-                                        <input type="text" name="backlog" r placeholder="Backlog if any" class="form-control mt-3" id="backlog">
+                                        <input type="text" name="backlog" required placeholder="Backlog if any" class="form-control mt-3" id="backlog">
                                         
                                     </div>
                                 </div>
@@ -123,42 +123,42 @@
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group1">
                                         <label for="degree" class="form-label extra">Degree/Board</label>
-                                        <input type="text" name="degree" r class="form-control mt-3" id="degree">
+                                        <input type="text" name="degree" required class="form-control mt-3" id="degree">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group2">
                                         <label for="school" class="form-label extra">School/College</label>
-                                        <input type="text" name="school" r  class="form-control mt-3" id="school" >
+                                        <input type="text" name="school" required  class="form-control mt-3" id="school" >
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group3">
                                         <label for="StartDate" class="form-label extra">Start Date</label>
-                                        <input type="date" name="startDate" r class="form-control mt-3" id="startDate">
+                                        <input type="date" name="startDate" required class="form-control mt-3" id="startDate">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group4">
                                         <label for="passoutYear" class="form-label extra">Passout Year</label>
-                                        <input type="date" name="passoutYear" r  class="form-control mt-3" id="passoutYear">
+                                        <input type="date" name="passoutYear" required  class="form-control mt-3" id="passoutYear">
                                       
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group5">
                                         <label for="percentage" class="form-label extra">Percentage</label>
-                                        <input type="text" name="percentage" r class="form-control mt-3" id="percentage">
+                                        <input type="text" name="percentage" required class="form-control mt-3" id="percentage">
                                      
                                     </div>
                                 </div>
                                 <div class="col-lg-1 col-12" style="min-width: 13rem;">
                                     <div id="form-group6">
                                         <label for="Backlog" class="form-label extra">Backlog</label>
-                                        <input type="text" name="backlog" r  class="form-control mt-3" id="backlog">
+                                        <input type="text" name="backlog" required  class="form-control mt-3" id="backlog">
                                         
                                     </div>
                                 </div>
@@ -174,10 +174,10 @@
                       </form>
 
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                </div> -->
             </div>
             </div>
         </div>
